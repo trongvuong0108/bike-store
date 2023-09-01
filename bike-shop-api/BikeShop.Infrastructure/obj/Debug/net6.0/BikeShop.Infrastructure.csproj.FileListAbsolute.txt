@@ -1,0 +1,17 @@
+D:\BikeShop\BikeShop.Infrastructure\bin\Debug\net6.0\BikeShop.Infrastructure.deps.json
+D:\BikeShop\BikeShop.Infrastructure\bin\Debug\net6.0\BikeShop.Infrastructure.runtimeconfig.json
+D:\BikeShop\BikeShop.Infrastructure\bin\Debug\net6.0\BikeShop.Infrastructure.dll
+D:\BikeShop\BikeShop.Infrastructure\bin\Debug\net6.0\BikeShop.Infrastructure.pdb
+D:\BikeShop\BikeShop.Infrastructure\bin\Debug\net6.0\BikeShop.Domain.dll
+D:\BikeShop\BikeShop.Infrastructure\bin\Debug\net6.0\BikeShop.Domain.pdb
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.csproj.AssemblyReference.cache
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.AssemblyInfoInputs.cache
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.AssemblyInfo.cs
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.csproj.CoreCompileInputs.cache
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.csproj.CopyComplete
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.dll
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\refint\BikeShop.Infrastructure.dll
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.pdb
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\BikeShop.Infrastructure.genruntimeconfig.cache
+D:\BikeShop\BikeShop.Infrastructure\obj\Debug\net6.0\ref\BikeShop.Infrastructure.dll
