@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "bikeshop.backendapi": "StartDebugging"
+      },
+      "applicationUrl": "https://localhost:7174;http://localhost:5297"
+    }
+  }
+}

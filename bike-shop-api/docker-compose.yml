@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  bikeshop.backendapi:
+    container_name: api
+    image: ${DOCKER_REGISTRY-}bikeshopbackendapi
+    build:
+      context: .
+      dockerfile: BikeShop.BackendAPI/Dockerfile
+    depends_on: [ db ]   
+    ports:
+      - "8080:8080"
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    container_name: mssql
+    hostname: mssql
+    environment:
+      SA_PASSWORD: "Password@1234"
+      ACCEPT_EULA: "Y"
+    restart: unless-stopped    
+    ports:
+      - "1433:1433" 
