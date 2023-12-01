@@ -17,7 +17,7 @@ namespace BikeShop.Infrastructure.DBContext
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"Data Source=localhost; Initial Catalog=BikeStores; User ID=sa; pwd=Password@1234; MultipleActiveResultSets = True; TrustServerCertificate = True");
+            optionsBuilder.UseSqlServer(@"Data Source=mssql; Initial Catalog=BikeStores; User ID=sa; pwd=Password@1234; MultipleActiveResultSets = True; TrustServerCertificate = True");
         }
     }
 }
