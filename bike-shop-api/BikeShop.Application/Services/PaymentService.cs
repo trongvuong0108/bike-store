@@ -3,9 +3,13 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace BikeShop.Infrastructure.Payment
+namespace BikeShop.Application.Services
 {
-    public class PaymentService
+    public interface IPaymentService 
+    {
+        public Task<string> doPayment();
+    }
+    public class PaymentService : IPaymentService
     {
         public async Task<string> doPayment()
         {
@@ -72,7 +76,6 @@ namespace BikeShop.Infrastructure.Payment
 
         public async Task<string> sendPaymentRequest(string endpoint, string postJsonString)
         {
-
             try
             {
                 HttpClient httpClient = new HttpClient();
@@ -124,6 +127,7 @@ namespace BikeShop.Infrastructure.Payment
             return result;
 
         }
+
         public string buildQueryHash(string partnerCode, string merchantRefId,
             string requestid, string publicKey)
         {
@@ -187,6 +191,7 @@ namespace BikeShop.Infrastructure.Payment
             return result;
 
         }
+
         public string signSHA256(string message, string key)
         {
             byte[] keyByte = Encoding.UTF8.GetBytes(key);
